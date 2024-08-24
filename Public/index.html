@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão Tempo</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="../Src/api.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="search-bar">
+            <div class="input-city">
+                <input type="text" placeholder="Digite o nome da cidade" id="input-city">
+                <button id="search-button">  
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"/>
+                        <path d="m21 21-4.3-4.3"/>
+                    </svg>
+                </button>
+            </div>
+            </div>
+            <div class="informations">
+                <div class="city-country">
+                    <p class="city">São Paulo, </p>
+                    <p class="country">BR</p>
+                </div>
+                <div class="temperature">
+                    <img class="tempIcon" src="" alt="Weather Icon">
+                    <p class="temperature-value">20°C</p>
+                </div>
+                <div class="temperature-max-min">
+                    <p class="temperature-max">Max: 25°C</p>
+                    <p class="temperature-min">Min: 15°C</p>
+                </div>
+                <div class="additional-info">
+                    <p class="temperature-humidity">Umidade: 60%</p>
+                    <p class="temperature-wind">Vento: 10 km/h</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
